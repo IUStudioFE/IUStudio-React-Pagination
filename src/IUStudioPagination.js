@@ -85,7 +85,7 @@ export default class IUStudioPagination extends Component {
             return false;
         }
 
-        this.setState({selected});
+        this.setState({selected: selected});
 
         this.callCallback(selected);
     }

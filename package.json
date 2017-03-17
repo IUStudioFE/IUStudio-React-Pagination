@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "iustudio react pagination",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha __test__/.setup.js __test__/*-test.js"
+  },
   "keywords": [
     "react",
     "pagination",
@@ -13,7 +15,7 @@
     "classnames": "^2.2.5",
     "react": "^15.4.2",
     "react-addons-create-fragment": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
@@ -22,7 +24,13 @@
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.24.0",
+    "chai": "^3.5.0",
     "css-loader": "^0.27.3",
+    "enzyme": "^2.7.1",
+    "jsdom": "^9.12.0",
+    "mocha": "^3.2.0",
+    "react-addons-test-utils": "^15.4.2",
     "style-loader": "^0.14.1",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"
